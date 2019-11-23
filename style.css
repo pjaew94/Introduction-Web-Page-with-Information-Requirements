@@ -1,0 +1,96 @@
+
+/* REUSABLES */
+
+* {
+  font-family: 'poppins', 'sans-serif';
+  letter-spacing: 1px;
+}
+
+
+body {
+  background-color:  hsl(0, 100%, 74%);
+}
+
+h1 {
+  font-weight: 700;
+  padding-bottom: 5%;
+}
+
+p {
+  line-height: 1.5
+}
+
+span {
+  color:  hsl(0, 100%, 74%);
+  font-weight: 600;
+}
+
+
+/* LEFT COLUMN */
+.leftColumn {
+  color: #FFF;
+  height: 20vh;
+  margin: 20% 0;
+  width: 50%;
+  padding-left: 20%;
+}
+
+
+/* RIGHT COLUMN */
+
+.rightColumn {
+  height: 20vh;
+  margin: 12% 0;
+  width: 50%;
+  padding-right: 20%;
+}
+
+
+.description,
+.form {
+  border-radius: 10px;
+  display: inline-block;
+  box-shadow: 0 10px 5px rgba(0, 0, 0, 0.2)
+}
+
+.description {
+  background-color: hsl(248, 32%, 49%);
+  margin-bottom: 5%;
+  padding-top: 20px;
+  text-align: center;
+  display: inline-block;
+  color: #FFF;
+  
+}
+
+.form-control {
+  height: 50px;
+}
+
+.form {
+  background-color: #FFF;
+  padding: 8%;
+}
+
+
+.customButton {
+  background-color: hsl(154, 59%, 51%);
+  width: 100%;
+  padding: 15px;
+  border-radius: 10px;
+  color: #FFF;
+  border: none;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.rightColumn .disclosure {
+  margin-top: 20px;
+  font-size: 0.7rem;
+  text-align: center;
+}
+
+
+
+
